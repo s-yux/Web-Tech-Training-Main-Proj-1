@@ -1,5 +1,4 @@
 /* ----------------------- Start of Nav Bar Related -----------------------*/
-
 .navbar {
     background-color: white;
     color: white;
@@ -88,22 +87,26 @@
         display: block;
     }
 }
-
 /* ----------------------- End of Nav Bar Related -----------------------*/
 
 .main {
     margin-top: 88px; /* Add a top margin to avoid content overlay */
 }
 
-.main_div {
+.banner_div{
     width: 90%;
     margin: 0 auto;
     padding: 12px 24px 40px 24px;
 }
 
-.main_div_table {
+.banner_div_table {
     padding-left: 40px;
     background-color: #f4f4f4;
+}
+
+.banner_div_img{
+    max-width: 100%;
+    height: auto;
 }
 
 #hire {
