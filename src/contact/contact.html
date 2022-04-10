@@ -1,13 +1,178 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link href="../common/fonts.css" type="text/css" rel="stylesheet">
+    <link href="../common/nav_bar.css" type="text/css" rel="stylesheet">
+    <link href="../common/footer.css" type="text/css" rel="stylesheet">
+    <link href="contact.css" type="text/css" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us</title>
 </head>
-<body>
+<body style="margin: 0">
+<!------------------------- Start of Nav Bar Code Related ------------------------->
+<nav class="navbar">
+    <div class="container-icon">
+        <a href="../../index.html">
+            <img class="primary-icon" src="../../assets/img/logo.png" alt="LOGO">
+        </a>
+    </div>
+    <ul class="nav-list" id="navi-list">
+        <li class="list-item">
+            <a href="../../index.html">Home</a>
+        </li>
+        <li class="list-item">
+            <a href="service.html">Our Services</a>
+        </li>
+        <li class="list-item">
+            <a href="../contact/contact.html">Contact</a>
+        </li>
+        <li class="list-item">
+            <a href="../support/support.html">Support</a>
+        </li>
+    </ul>
+    <div class="menu" id="toggle-button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+</nav>
+<!------------------------- End of Nav Bar Code Related ------------------------->
+<div class="contact_main">
+    <div class="location_div">
+        <h1>We are located at:</h1>
+        <table>
+            <tr>
+                <td>
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.824837243996!2d103.84623091475395!3d1.278645999067408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19cf7dd774b9%3A0x62fa87a5b21c6883!2sWorks%20Pte.%20Ltd.!5e0!3m2!1sen!2ssg!4v1649600840495!5m2!1sen!2ssg"
+                            width="600" height="450" style="border:0;"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </td>
+                <td class="address_row">
+                    <h4>Contact No:</h4>
+                    <p>+65 6849 2030</p>
+                    <h4>Email: </h4>
+                    <p>support@anyworks.com</p>
+                    <h4>Address: </h4>
+                    <address>
+                        138 Robinson Rd <br>
+                        #05-02 Oxley Tower<br>
+                        Singapore 068906
+                    </address>
+                </td>
+            </tr>
+        </table>
 
+    </div>
+    <div class="message_div">
+        <h1>Drop us a message, and we will get back to you:</h1>
+        <table>
+            <tr>
+                <td>Please select related topic:</td>
+                <td>
+                    <select name="paymentmode">
+                        <option value="cCard">General Enquires</option>
+                        <option value="dCard">Debit Card</option>
+                        <option value="pp">Paypal Option</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input required type="text" name="firstname" placeholder="E.g.John Smith"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input required type="email" name="email" placeholder="E.g.aaa@gmail.com"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number:</td>
+                <td>
+                    <input required type="number" name="phone" placeholder="E.g.+65 1234 5678"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Rate your Satisfaction:</td>
+                <td>
+                    <input type="range" min="1" max="10" name="range">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label for="my">
+                        Male
+                        <input id="male" type="radio" name="gender" value="">
+                    </label>
+                    <label for="mn">
+                        Female
+                        <input id="female" type="radio" name="gender" value="">
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Select File to Upload: </label>
+                </td>
+                <td>
+                    <input type="file" name="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button>
+                        Submit
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="footer">
+        <div class="sub_footer">
+            <p class="social">
+                <img width="40" height="40" src="/assets/icon/facebook-icon.svg">
+                <img width="40" height="40" src="/assets/icon/instagram-icon.svg">
+                <img width="40" height="40" src="/assets/icon/linkedIn-icon.svg">
+                <img width="40" height="40" src="/assets/icon/twitter-icon.svg">
+            </p>
+            <table style="padding-right: 280px">
+                <tr>
+                    <td class="footer_list_item">
+                        <p class="footer_list_header">Platform</p>
+                        <p>Talent</p>
+                        <p>Enterprise</p>
+                        <p>FAQ</p>
+                    </td>
+                    <td class="footer_list_item">
+                        <p class="footer_list_header">Resources</p>
+                        <p>For Freelances</p>
+                        <p>For Clients</p>
+                        <p>Blog</p>
+                    </td>
+                    <td class="footer_list_item">
+                        <p class="footer_list_header">Find Us</p>
+                        <p>About</p>
+                        <p>Community</p>
+                        <p>Contact Us</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <span style="font-family: Gilroy-Medium; font-size: 16px">© 2022 Anyworks Pte. Ltd.</span>
+    </div>
+</div>
 </body>
 </html>

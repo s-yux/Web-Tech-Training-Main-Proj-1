@@ -1,0 +1,43 @@
+.contact_main {
+    margin-top: 88px; /* Add a top margin to avoid navbar overlay */
+}
+
+.location_div {
+    text-align: center;
+}
+
+.location_div table {
+    background-color: #f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address_row{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.address_row {
+    alignment: left;
+}
+
+.message_div {
+    text-align: center;
+}
+
+.message_div table {
+    background-color: #f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.message_div table button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid black;
+    padding: 12px;
+}
