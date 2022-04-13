@@ -22,27 +22,27 @@ h5 {
 
 @font-face {
     font-family: "Gilroy-Medium";
-    src: url("/fonts/Gilroy-Medium.otf");
+    src: url("../../fonts/Gilroy-Medium.otf");
 }
 
 @font-face {
     font-family: "Gilroy-Bold";
-    src: url("/fonts/Gilroy-Bold.otf");
+    src: url("../../fonts/Gilroy-Bold.otf");
 }
 
 @font-face {
     font-family: "Gilroy-Semibold";
-    src: url("/fonts/Gilroy-Semibold.otf");
+    src: url("../../fonts/Gilroy-Semibold.otf");
 }
 
 @font-face {
     font-family: "Gilroy-Extrabold";
-    src: url("/fonts/Gilroy-Extrabold.otf");
+    src: url("../../fonts/Gilroy-Extrabold.otf");
 }
 
 @font-face {
     font-family: "Gilroy-Regular";
-    src: url("/fonts/Gilroy-Regular.otf");
+    src: url("../../fonts/Gilroy-Regular.otf");
 }
 
 /* ----------------------- End of Font Related -----------------------*/
